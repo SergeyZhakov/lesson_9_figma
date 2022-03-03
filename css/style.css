@@ -1,0 +1,165 @@
+/* &display=swap */
+
+@import url(null.css);
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 813px;
+	margin: 0 auto;
+}
+
+.block {
+	margin: 0px 0px 32px 0px;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+}
+
+.time {
+	margin: 0px 0px 40px 0px;
+}
+.clock {
+	display: inline-block;
+}
+.clock li {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787a80;
+}
+.point1 {
+	margin: 0px 24px 0px 0px;
+}
+
+.point1::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/Calendar.svg") no-repeat;
+	margin: 0px 8px -2px 0px;
+}
+
+.point2::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/Clock.svg") no-repeat;
+	margin: 0px 8px -2px 0px;
+}
+
+.networks {
+	float: right;
+}
+.text-net {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	color: #1e212c;
+}
+
+.network1 {
+	margin: 0px 0px 0px 12px;
+}
+.network2 {
+	margin: 2px 0px 0px 12px;
+}
+
+.network3 {
+	margin: 0px 0px 0px 12px;
+}
+
+.image {
+	margin: 0px 0px 63px 0px;
+}
+
+.block__text {
+	margin: 0px 0px 35px 0px;
+}
+.text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+
+.block__text2 {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin: 0px 0px 51px 0px;
+}
+.text2 {
+	margin: 0px 0px 36px 0px;
+}
+.text3 {
+}
+
+.block__bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin: 0px 0px 40px 0px;
+}
+
+.block__bold p {
+	padding: 0px 0px 0px 60px;
+}
+.block__bold p::before {
+	content: "";
+	display: inline-block;
+	width: 28px;
+	height: 20px;
+	background: url("../img/braces.svg") no-repeat;
+	margin: 0px 30px 0px -60px;
+}
+
+.article {
+	margin: 0px 0px 35px 0px;
+}
+
+.article__text {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+.item {
+	margin: 0px 0px 24px 0px;
+}
+ul.list {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+.list li {
+	padding: 0px 0px 0px 32px;
+}
+
+.list li::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/check.svg") no-repeat;
+	margin: 0px 16px 0px -32px;
+}
+
+.foot__text {
+	margin: 0px 0px 60px 0px;
+}
+.end__text {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
